@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-java-springboot-basic
+  namespace: user1-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/scoheb/devfile-sample-java-springboot-basic@sha256:a19cbdec0d866ca293bc2720fd34e134986f91ea163600863a7ce12e0462debb
+        name: my-java-springboot
+        resources: {}
+status: {}
