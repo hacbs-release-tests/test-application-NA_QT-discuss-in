@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/scoheb/devfile-sample-code-with-quarkus
+      - image: quay.io/scoheb/devfile-sample-code-with-quarkus@sha256:72220fb106084abb4e8e03c66285e3397b2d1a748df38bf517a490f20ff8df1f
         name: my-java-quarkus
         resources: {}
 status: {}
