@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/scoheb/devfile-sample-python-basic
+      - image: quay.io/scoheb/devfile-sample-python-basic@sha256:e817dcfdd6e492d6f60d2ac1e5f4d2f7e0d69188f78a3e35a340cb92b56f5ddd
         name: my-python
         resources: {}
 status: {}
